@@ -1,0 +1,14 @@
+﻿  pra2.c
+D:\practice-code\practice-one\pra_two\pra_two\pra2.c(175,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\practice-code\practice-one\pra_two\pra_two\pra2.c(175,9): message : 请考虑在格式字符串中使用“%zd”
+D:\practice-code\practice-one\pra_two\pra_two\pra2.c(176,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\practice-code\practice-one\pra_two\pra_two\pra2.c(176,9): message : 请考虑在格式字符串中使用“%zd”
+D:\practice-code\practice-one\pra_two\pra_two\pra2.c(177,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\practice-code\practice-one\pra_two\pra_two\pra2.c(177,9): message : 请考虑在格式字符串中使用“%zd”
+D:\practice-code\practice-one\pra_two\pra_two\pra2.c(178,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\practice-code\practice-one\pra_two\pra_two\pra2.c(178,9): message : 请考虑在格式字符串中使用“%zd”
+D:\practice-code\practice-one\pra_two\pra_two\pra2.c(179,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\practice-code\practice-one\pra_two\pra_two\pra2.c(179,9): message : 请考虑在格式字符串中使用“%zd”
+D:\practice-code\practice-one\pra_two\pra_two\pra2.c(180,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\practice-code\practice-one\pra_two\pra_two\pra2.c(180,9): message : 请考虑在格式字符串中使用“%zd”
+  pra_two.vcxproj -> D:\practice-code\practice-one\pra_two\x64\Debug\pra_two.exe
