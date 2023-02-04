@@ -1,3 +1,2 @@
 ﻿  pra4.c
-D:\practice-code\practice-one\pra-four\pra-four\pra4.c(133,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
   pra-four.vcxproj -> D:\practice-code\practice-one\pra-four\Debug\pra-four.exe
