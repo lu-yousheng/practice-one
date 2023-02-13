@@ -368,3 +368,126 @@
 //	return 0;
 //}
 //递归完成斐波那契数列
+//第n个斐波那契数列是多少
+//int Fib(int x)
+//{
+//	if (x > 2)
+//	{
+//		return Fib(x-1)+Fib(x-2);
+//	}
+//	else
+//		return x = 1;
+//}
+//int main()
+//{
+//	int n = 0;
+//	scanf("%d", &n);
+//	printf("%d", Fib(n));
+//	return 0;
+//}
+//#include<stdio.h>
+//#include<string.h>
+//int main()
+//{
+//	//int arr[8];
+//	//char ch1[] = { 'b','i','t' };
+//	//char ch4[3] = { 'b','i','t'};
+//	//char ch2[5] = "bit";
+//	//char ch3[] = { 'b','i','t','\0' };
+//	//printf("%d\n", strlen(ch1));
+//	//printf("%d\n", strlen(ch4));
+//	//printf("%d\n", strlen(ch2));
+//	//printf("%d\n", strlen(ch3));
+//	//printf("%s\n", ch1);
+//	//printf("%s\n", ch4);
+//	//printf("%s\n", ch2);
+//	//printf("%s\n", ch3);
+//	int arr[10] = { 0 };
+//	int i = 0;
+//	int j = 0;
+//	for (i = 1;i <=10;i++)
+//	{
+//		arr[j] = i;
+//		j++;
+//	}
+//	for (i = 0;i < 10;i++)
+//	{
+//		printf("%d ", arr[i]);
+//	}
+//	return 0;
+//}
+//
+//#include<stdio.h>
+//int main()
+//{
+//	int arr[10] = { 0 };
+//	scanf()
+//	int i = 0;
+//	for (i = 0;i < 10;i++)
+//	{
+//		printf("%d ", arr[i]);
+//	}
+//	return 0;
+//}
+//int main()
+//{
+//	int arr[7] = { 1,2,3,4,5,6,7 };
+//	int i = 0;
+//	int* pa = arr;
+//	for (i = 1;i <= 7;i++)
+//	{
+//		printf("%d ", *pa);
+//		pa++;
+//	}
+//	return 0;
+//}
+//void bubble_sort(int arr[])
+//{
+//	int* pa = arr;
+//	while (*pa <100000)
+//	{
+//		if (*pa > *(pa + 1))
+//		{
+//			int tmp = 0;
+//			tmp = *(pa + 1);
+//			*(pa + 1) = *pa;
+//			*pa = tmp;
+//			pa = pa + 1;
+//		}
+//		else
+//		{
+//			pa+1;
+//		}
+//	}
+//}
+#include<stdio.h>
+void bubble_sort(int arr[],int s)
+{
+	int i = 0;
+	for (i = 0;i < s - 1;i++)
+	{
+		int j = 0;
+		for (j = 0;j < s-1-i;j++)
+		{
+			if (arr[j] > arr[j + 1])
+			{
+				int tmp = 0;
+				tmp = arr[j];
+				arr[j] = arr[j + 1];
+				arr[j + 1] = tmp;
+			}
+		}
+	}
+}
+int main()
+{
+	int arr[] = { 1,5,2,7,3,8,9,3 };
+	int sa = sizeof(arr) / sizeof(arr[0]);
+	bubble_sort(arr,sa);
+	int i = 0;
+	for (i = 0;i < sa;i++)
+	{
+		printf("%d ", arr[i]);
+	}
+	return 0;
+}
