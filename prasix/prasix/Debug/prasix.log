@@ -1,0 +1,4 @@
+﻿  pra6.c
+D:\practice-code\practice-one\prasix\prasix\pra6.c(7,20): warning C4013: “strlen”未定义；假设外部返回 int
+  LINK : 没有找到 D:\practice-code\practice-one\prasix\Debug\prasix.exe 或上一个增量链接没有生成它；正在执行完全链接
+  prasix.vcxproj -> D:\practice-code\practice-one\prasix\Debug\prasix.exe
