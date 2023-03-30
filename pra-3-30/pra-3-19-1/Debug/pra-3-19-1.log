@@ -1,0 +1,8 @@
+﻿  pra.c
+D:\practice-code\practice-one\pra-3-19-1\pra-3-19-1\pra.c(104,56): warning C4047: “return”:“int *”与“int”的间接级别不同
+D:\practice-code\practice-one\pra-3-19-1\pra-3-19-1\pra.c(154,46): warning C4090: “函数”: 不同的“const”限定符
+D:\practice-code\practice-one\pra-3-19-1\pra-3-19-1\pra.c(154,46): warning C4028: 形参 1 与声明不同
+D:\practice-code\practice-one\pra-3-19-1\pra-3-19-1\pra.c(154,46): warning C4028: 形参 2 与声明不同
+D:\practice-code\practice-one\pra-3-19-1\pra-3-19-1\pra.c(154,46): warning C4047: “函数”:“int (__cdecl *)(const void *,const void *)”与“int *(__cdecl *)(void *,void *)”的间接级别不同
+D:\practice-code\practice-one\pra-3-19-1\pra-3-19-1\pra.c(154,39): warning C4024: “bubble_qort”: 形参和实参 4 的类型不同
+  pra-3-19-1.vcxproj -> D:\practice-code\practice-one\pra-3-19-1\Debug\pra-3-19-1.exe
