@@ -1,0 +1,3 @@
+﻿  test.c
+D:\practice-code\practice-one\pra-3-30_1\pra-3-30_1\test.c(23,1): warning C4047: “初始化”:“char **”与“char *(*)[3]”的间接级别不同
+  pra-3-30_1.vcxproj -> D:\practice-code\practice-one\pra-3-30_1\x64\Debug\pra-3-30_1.exe
