@@ -1,2 +1,4 @@
 ﻿  pra.c
+D:\practice-code\practice-one\pra_4-1\pra_4-1\pra.c(242,17): warning C4013: “strlen”未定义；假设外部返回 int
+D:\practice-code\practice-one\pra_4-1\pra_4-1\pra.c(287,12): warning C4013: “strcmp”未定义；假设外部返回 int
   pra_4-1.vcxproj -> D:\practice-code\practice-one\pra_4-1\Debug\pra_4-1.exe
